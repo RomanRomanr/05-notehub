@@ -6,8 +6,8 @@ import MovieGrid from "../MovieGrid/MovieGrid";
 import MovieModal from "../MovieModal/MovieModal";
 import SearchBar from "../SearchBar/SearchBar";
 import toast, { Toaster } from "react-hot-toast";
-import type { Movie } from "../../types/movie";
-import { fetchMovies } from "../../services/movieService";
+import type { Movie } from "../../types/note";
+import { fetchMovies } from "../../services/noteService";
 
 function App() {
   const [movies, setMovies] = useState<Movie[]>([]);
