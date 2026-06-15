@@ -5,7 +5,7 @@ import { useDebouncedCallback } from "use-debounce";
 import { fetchNotes } from "../../services/noteService";
 
 import SearchBox from "../SearchBox/SearchBox"
-import Paginate from "../Pagination/ReactPagination"
+import Paginate from "../Pagination/Pagination"
 import NoteList from "../NoteList/NoteList";
 import Modal from "../Modal//Modal";
 import NoteForm from "../NoteForm/NoteForm";

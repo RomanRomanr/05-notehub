@@ -44,6 +44,7 @@ export default function NoteForm({ closeModal }: NoteFormProps) {
     onSuccess: async () => {
       await client.invalidateQueries({ queryKey: ["notes"] }); 
       success("A note has been created!");
+      closeModal();
     },
 
     onError: error,
